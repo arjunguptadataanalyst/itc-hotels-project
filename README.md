@@ -1,110 +1,142 @@
 # ITC Hotels Data Analytics Project
-> Most datasets are clean. Most problems are not.  
-> This project focuses on understanding how data behaves when decisions actually matter.
 
-## Overview
-
-This project analyzes **3,00,000 hotel booking records** to understand revenue patterns, customer behavior, and operational signals that influence business outcomes.
-
-The objective is not just to build charts, but to answer a more important question:
-
-**What in this data actually matters for decision-making?**
+> Real-world hotel booking analysis using 3,00,000 records to uncover what actually drives revenue, not just what looks good on charts.
 
 ---
 
-## Problem Context
+## Overview
 
-Across industries, especially in hospitality, data is often available but not always usable.
+This project analyzes large-scale hotel booking data to understand how revenue, customer behavior, and booking patterns interact in a real business environment.
 
-Revenue exists. Bookings exist. Ratings exist.  
-But clarity does not.
+The focus is not just on performing analysis, but on identifying signals that can support better decision-making.
 
-This analysis is built around that gap.
+---
+
+## Why this project exists
+
+Most data analytics projects are tool-driven.
+
+This one is decision-driven.
+
+The goal was to move beyond:
+- writing queries  
+- plotting charts  
+
+and instead answer:
+
+- What actually drives revenue?  
+- What doesn’t matter as much as we think?  
+- Where do assumptions fail when tested with data?  
+
+Because in real-world scenarios, clean answers are rare.
+
+---
+
+## Dataset
+
+The dataset contains approximately **3,00,000 booking records** covering:
+
+- Hotel categories (Luxury, Business, Resort)  
+- Booking channels  
+- Customer ratings  
+- Revenue (Gross and Net)  
+- Discounts  
+- Stay duration and guest count  
+
+Due to size limitations, the dataset is hosted on Kaggle:
+
+👉 https://kaggle.com/datasets/arjunguptadataanalyst/itc-hotels-sales
 
 ---
 
 ## Approach
 
-Instead of starting with tools, the focus was on structure:
+The analysis was structured in three layers:
 
-- Clean the data so it can be trusted  
-- Transform it so it can be questioned  
-- Analyze it so it can support decisions  
+### 1. Data Preparation
+- Removed duplicates  
+- Standardized formats  
+- Cleaned inconsistencies  
+- Ensured data reliability  
 
----
-
-## Data Preparation
-
-- Removed duplicate records  
-- Standardized date and text formats  
-- Ensured consistency across numerical fields  
-
-The goal was not perfection, but reliability.
-
----
-
-## Feature Engineering
-
-To move beyond surface-level analysis:
-
+### 2. Feature Engineering
 - Revenue per Night  
 - Revenue per Guest  
 - Discount Percentage  
 - High Rating Indicator  
 
-These features help shift analysis from reporting to reasoning.
+These features helped shift the analysis from reporting to reasoning.
+
+### 3. Analysis
+- Revenue distribution  
+- Trend analysis (monthly & quarterly)  
+- Channel-level performance  
+- Customer rating behavior  
 
 ---
 
-## Key Observations
+## Key Business Insights
 
-### 1. Revenue is not evenly distributed  
+### Revenue is concentrated, not distributed  
 Luxury hotels contribute a disproportionate share of total revenue.
 
 → High-value segments matter more than high-volume segments.
 
 ---
 
-### 2. Stability exists beneath variation  
-Monthly revenue fluctuates, but not unpredictably.
-
-→ Indicates consistent demand with manageable variability.
-
----
-
-### 3. Discounts reduce revenue, not necessarily improve satisfaction  
-There is no strong indication that higher discounts lead to better customer ratings.
+### Discounts are not driving satisfaction  
+Higher discounts do not show a meaningful improvement in customer ratings.
 
 → Pricing strategy should focus on value, not just reduction.
 
 ---
 
-### 4. Customer satisfaction is concentrated  
-Most ratings fall between 3 and 5.
+### Demand is stable, not volatile  
+Revenue trends fluctuate, but within a controlled range.
 
-→ The system performs consistently, but differentiation is limited.
+→ Indicates predictable demand patterns useful for planning.
 
 ---
 
-## Dataset
+### Customer satisfaction lacks differentiation  
+Ratings are clustered between 3–5 across categories.
 
-The dataset is hosted on Kaggle due to size constraints:
-
-https://kaggle.com/datasets/arjunguptadataanalyst/itc-hotels-sales
+→ Service quality is consistent, but not strongly differentiated.
 
 ---
 
 ## Visual Outputs
 
-### Revenue by Category
+### Net Revenue by Hotel Category  
 [visuals/V1_category_revenue.png](https://github.com/arjunguptadataanalyst/itc-hotels-project/blob/3d08f58b4253eecc0a57ac8553859711728363fe/visuals/V1_category_revenue.png)
 
-### Monthly Trend
+### Monthly Revenue Trend  
 [visuals/V2_monthly_trend.png](https://github.com/arjunguptadataanalyst/itc-hotels-project/blob/200ded465ff5dcf7f7b5981d5849207d60971c91/visuals/V2_monthly_trend.png)
 
-### Net vs Gross Revenue
+### Net vs Gross Revenue  
 [visuals/V4_net_vs_gross.png](https://github.com/arjunguptadataanalyst/itc-hotels-project/blob/200ded465ff5dcf7f7b5981d5849207d60971c91/visuals/V4_net_vs_gross.png)
 
+---
+
+## Project Structure
+
+itc-hotels-project/
+├── data/
+├── notebooks/
+├── scripts/
+├── visuals/
+├── README.md
+
+---
+
+## What I would do next
+
+- Build a revenue forecasting model (time series)  
+- Segment customers based on booking behavior  
+- Analyze cancellation patterns  
+- Optimize pricing using demand signals  
+
+The objective would be to move from descriptive analysis to predictive decision-making.
 
 ---
 
@@ -112,16 +144,14 @@ https://kaggle.com/datasets/arjunguptadataanalyst/itc-hotels-sales
 
 The value of analysis is not in the tools used, but in the clarity produced.
 
-This project is a small attempt to move from:
-- data → information  
-- information → understanding  
-- understanding → better decisions  
+This project is an attempt to move from:
+data → information → understanding → better decisions
 
 ---
 
 ## About
 
 Arjun Gupta  
-Applied Data Analyst | Analytics Educator
+Applied Data Analyst | Analytics Educator  
 
-Focused on bridging the gap between learning analytics and applying it.
+Focused on bridging the gap between learning analytics and applying it in real-world scenarios.
