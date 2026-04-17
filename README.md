@@ -1,5 +1,5 @@
 # ITC Hotels Data Analytics Project
-
+> Built as part of applied analytics work focused on real-world decision-making scenarios.
 > Real-world hotel booking analysis using 3,00,000 records to uncover what actually drives revenue, not just what looks good on charts.
 
 ---
@@ -74,6 +74,14 @@ These features helped shift the analysis from reporting to reasoning.
 - Customer rating behavior  
 
 ---
+## Tech Stack
+
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib
+
+---
 
 ## Key Business Insights
 
@@ -108,12 +116,15 @@ Ratings are clustered between 3–5 across categories.
 ## Visual Outputs
 
 ### Net Revenue by Hotel Category  
+Highlights how revenue is concentrated in premium segments, with luxury hotels driving a disproportionate share.
 [visuals/V1_category_revenue.png](https://github.com/arjunguptadataanalyst/itc-hotels-project/blob/3d08f58b4253eecc0a57ac8553859711728363fe/visuals/V1_category_revenue.png)
 
-### Monthly Revenue Trend  
+### Monthly Revenue Trend
+Shows consistent revenue performance with controlled fluctuations, indicating stable underlying demand.
 [visuals/V2_monthly_trend.png](https://github.com/arjunguptadataanalyst/itc-hotels-project/blob/200ded465ff5dcf7f7b5981d5849207d60971c91/visuals/V2_monthly_trend.png)
 
-### Net vs Gross Revenue  
+### Net vs Gross Revenue
+Illustrates the impact of discounts, where gross revenue remains higher but does not fully translate into realized earnings.
 [visuals/V4_net_vs_gross.png](https://github.com/arjunguptadataanalyst/itc-hotels-project/blob/200ded465ff5dcf7f7b5981d5849207d60971c91/visuals/V4_net_vs_gross.png)
 
 ---
@@ -121,11 +132,11 @@ Ratings are clustered between 3–5 across categories.
 ## Project Structure
 
 itc-hotels-project/
-├── data/
-├── notebooks/
-├── scripts/
-├── visuals/
-├── README.md
+├─ data/
+├─ notebooks/
+├─ scripts/
+├─ visuals/
+├─ README.md
 
 ---
 
