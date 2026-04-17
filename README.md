@@ -97,13 +97,13 @@ https://kaggle.com/datasets/arjunguptadataanalyst/itc-hotels-sales
 ## Visual Outputs
 
 ### Revenue by Category
-visuals/V1_category_revenue.png
+[visuals/V1_category_revenue.png](https://github.com/arjunguptadataanalyst/itc-hotels-project/blob/3d08f58b4253eecc0a57ac8553859711728363fe/visuals/V1_category_revenue.png)
 
 ### Monthly Trend
-visuals/V2_monthly_trend.png
+[visuals/V2_monthly_trend.png](https://github.com/arjunguptadataanalyst/itc-hotels-project/blob/200ded465ff5dcf7f7b5981d5849207d60971c91/visuals/V2_monthly_trend.png)
 
 ### Net vs Gross Revenue
-visuals/V4_net_vs_gross.png
+[visuals/V4_net_vs_gross.png](https://github.com/arjunguptadataanalyst/itc-hotels-project/blob/200ded465ff5dcf7f7b5981d5849207d60971c91/visuals/V4_net_vs_gross.png)
 
 
 ---
