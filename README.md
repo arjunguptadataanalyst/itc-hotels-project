@@ -117,14 +117,17 @@ Ratings are clustered between 3–5 across categories.
 
 ### Net Revenue by Hotel Category  
 Highlights how revenue is concentrated in premium segments, with luxury hotels driving a disproportionate share.
+
 [visuals/V1_category_revenue.png](https://github.com/arjunguptadataanalyst/itc-hotels-project/blob/3d08f58b4253eecc0a57ac8553859711728363fe/visuals/V1_category_revenue.png)
 
 ### Monthly Revenue Trend
 Shows consistent revenue performance with controlled fluctuations, indicating stable underlying demand.
+
 [visuals/V2_monthly_trend.png](https://github.com/arjunguptadataanalyst/itc-hotels-project/blob/200ded465ff5dcf7f7b5981d5849207d60971c91/visuals/V2_monthly_trend.png)
 
 ### Net vs Gross Revenue
 Illustrates the impact of discounts, where gross revenue remains higher but does not fully translate into realized earnings.
+
 [visuals/V4_net_vs_gross.png](https://github.com/arjunguptadataanalyst/itc-hotels-project/blob/200ded465ff5dcf7f7b5981d5849207d60971c91/visuals/V4_net_vs_gross.png)
 
 ---
